@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dylan Glenn Contact</title>
+        <link href="style.css" rel="stylesheet" type="text/CSS" />
+    </head>
+    <body>
+         <div id="title">
+            <h1>Dylan Glenn: Contact Me</h1>
+            </div>
+    <hr/>
+        <div id=navigation>
+            <a href="projects.html" target="_blank">Projects</a>
+            <a href="contactme.html" target="_blank">Contact Me</a>
+            <a href="testimonials.html" target="_blank">Testimonials</a>
+            <a href="index.html" target="blank">Home</a>
+        </div>
+    <hr/> 
+    <h2>Information Request</h2>
+    <form action="fakepage.html" method="POST">
+        First Name: <input type="text" name="firstname" required /><br/>
+        Last Name: <input type="text" name="lastname" required /><br/>
+        Phone #: <input type="text" name="phonenumber" required /><br/>
+        Best time to call: <select name="contacttimes">
+            <option value="morning">Morning (8am to 12pm EST)</option>
+            <option value="afternoon">Afternoon (12pm to 4pm)</option>
+            <option value="evening">Evening (4pm to 8pm)</option>
+        </select><br/>
+        I am interested in: <br/>
+        <input type="checkbox" name="services" value="frontendwebdev"/>Front End Web Development<br/>
+        <input type="checkbox" name="services" value="backendwebdev"/>Back End Web Development<br/>
+        <input type="checkbox" name="services" value="databasedesign"/>Database Design<br/>
+        I have filled in client application form: 
+            <input type="radio" name="answer" value="yes" checked/>Yes
+            <input type="radio" name="answer" value="no"/>No<br/>
+        Additional information:<br/>
+        <textarea name="additionalinfo"></textarea><br/>
+        <input type="submit"/>
+    </form>
+    </body>
+</html>
